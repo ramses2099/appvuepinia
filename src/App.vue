@@ -1,18 +1,18 @@
 <template lang="">
   <div>
-    <counter/>
+    <MyCounter/>
+    <MyUsers/>
   </div>
 </template>
 <script>
-import CounterVue from './components/Counter.vue';
+import MyCounter from './components/MyCounter.vue';
+import MyUsers from './components/MyUsers.vue';
+
 export default {
   name:'app',
   components:{
-    counter:CounterVue
-  }
-  
+     MyCounter,
+     MyUsers
+  }  
 }
 </script>
-<style lang="">
-  
-</style>

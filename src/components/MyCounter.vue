@@ -1,0 +1,27 @@
+<template>
+    <div>
+        <button @click="counter.increment"> Count is {{counter.count}}</button>        
+    </div>
+</template>
+<script setup>
+    //Composition API
+    import { useCountStore } from '@/stores/counter';
+    //import {ref, onMounted } from 'vue'
+    //
+
+    /*-
+    const count = ref(0)
+
+    function increment(){
+        count.value++
+    }
+    onMounted(()=>{
+        console.log(`The initial count is ${count.value}`);
+    })
+    -*/
+
+    const counter = useCountStore();
+
+
+</script>
+
