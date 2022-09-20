@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="counter.increment"> Count is {{counter.count}}</button>        
+        <button class="btn btn-primary" @click="counter.increment"><i class="bi bi-arrow-clockwise"></i>Count is {{counter.count}}</button>        
     </div>
 </template>
 <script setup>

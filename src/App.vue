@@ -1,18 +1,15 @@
 <template lang="">
   <div>
-    <MyCounter/>
-    <MyUsers/>
+   <MyTodos />  
   </div>
 </template>
 <script>
-import MyCounter from './components/MyCounter.vue';
-import MyUsers from './components/MyUsers.vue';
+import MyTodos from './components/MyTodos.vue'; 
 
 export default {
   name:'app',
   components:{
-     MyCounter,
-     MyUsers
+    MyTodos,
   }  
 }
 </script>
